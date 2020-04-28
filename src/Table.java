@@ -48,22 +48,20 @@ public class Table {
 	} 
 	
 	
-//	@Test
-//	public void twocol() {
-//		
-//		int rowcount = driver.findElements(By.xpath("/html/body/table/tbody/tr")).size();
-//		int colcount = driver.findElements(By.xpath("/html/body/table/tbody/tr")).size();
-//		
-//		for(int totalRow = 2; totalRow<=rowcount;totalRow++) {
-//			
-//			for(int col=2;col<=)
-//			
-//			String value = driver.findElement(By.xpath("/html/body/table/tbody/tr["+totalRow+"]/td[2]")).getText();
-//			System.out.println(value);
-//		}
-//		
-//		
-//	}
+	@Test
+	public void twocol() {
+		
+		int rowcount = driver.findElements(By.xpath("/html/body/table/tbody/tr")).size();
+		int colcount = driver.findElements(By.xpath("/html/body/table/tbody/tr")).size();
+		
+		for(int totalRow = 2; totalRow<=rowcount;totalRow++) {
+	
+			
+			String value = driver.findElement(By.xpath("/html/body/table/tbody/tr["+totalRow+"]/td[2]")).getText();
+			System.out.println(value);
+		
+		}
+	}
 	
 
 	@AfterMethod
