@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="F:/selenium/selenium libs/jxl.jar"/>
+	<classpathentry kind="lib" path="F:/selenium/selenium libs/saxon-8.7.jar"/>
+	<classpathentry kind="lib" path="F:/selenium/selenium libs/SaxonLiaison.jar"/>
+	<classpathentry kind="lib" path="F:/selenium/selenium libs/selenium-java-2.53.1.jar"/>
+	<classpathentry kind="lib" path="F:/selenium/selenium libs/selenium-server-standalone-2.53.1.jar"/>
+	<classpathentry kind="lib" path="F:/selenium/selenium libs/snakeyaml-1.13.jar"/>
+	<classpathentry kind="lib" path="F:/selenium/selenium libs/testng-6.9.jar"/>
+	<classpathentry kind="lib" path="F:/selenium/poi-4.1.2/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="F:/selenium/poi-src-4.1.2-20200217.zip"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
